@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(export PATH=\"$PATH:/c/Program Files/nodejs\")",
+      "Bash(npm run:*)",
+      "Bash(curl -s http://localhost:5173)",
+      "Bash(node --input-type=module)",
+      "WebFetch(domain:www.tutor2u.net)",
+      "WebSearch",
+      "WebFetch(domain:www.thestudentroom.co.uk)",
+      "WebFetch(domain:www.tootingtutors.co.uk)",
+      "WebFetch(domain:storage.ghost.io)",
+      "WebFetch(domain:filestore.aqa.org.uk)",
+      "WebFetch(domain:www.stuvia.com)",
+      "WebFetch(domain:www.calameo.com)",
+      "WebFetch(domain:learnexams.com)",
+      "WebFetch(domain:economicsfactory.com)",
+      "WebFetch(domain:cdn.savemyexams.com)",
+      "WebFetch(domain:www.savemyexams.com)",
+      "WebFetch(domain:www.a-level-economics-tutor.com)",
+      "PowerShell(Get-Process *)",
+      "Bash(cmd *)",
+      "Bash(npx kill-port *)"
+    ]
+  }
+}

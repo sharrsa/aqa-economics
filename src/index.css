@@ -1,0 +1,310 @@
+/* ============================================================
+   AQA Economics Tutor — Global Styles
+   ============================================================ */
+
+:root {
+  --primary: #4f46e5;
+  --primary-light: #818cf8;
+  --primary-dark: #3730a3;
+  --micro: #0ea5e9;
+  --micro-light: #e0f2fe;
+  --macro: #10b981;
+  --macro-light: #d1fae5;
+  --bg: #f1f5f9;
+  --surface: #ffffff;
+  --surface-2: #f8fafc;
+  --border: #e2e8f0;
+  --text: #1e293b;
+  --text-muted: #64748b;
+  --success: #10b981;
+  --warning: #f59e0b;
+  --danger: #ef4444;
+  --radius: 12px;
+  --radius-sm: 8px;
+  --shadow: 0 1px 3px rgba(0,0,0,.08), 0 4px 12px rgba(0,0,0,.06);
+  --shadow-lg: 0 8px 24px rgba(0,0,0,.10);
+  --sidebar-w: 260px;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { font-size: 16px; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+/* ---- Layout ---- */
+.app-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.main-content {
+  margin-left: var(--sidebar-w);
+  flex: 1;
+  padding: 32px 36px;
+  min-height: 100vh;
+  max-width: 1100px;
+}
+
+@media (max-width: 768px) {
+  .main-content { margin-left: 0; padding: 16px; }
+}
+
+/* ---- Typography ---- */
+h1 { font-size: 2rem; font-weight: 700; letter-spacing: -0.5px; }
+h2 { font-size: 1.5rem; font-weight: 700; }
+h3 { font-size: 1.15rem; font-weight: 600; }
+h4 { font-size: 1rem; font-weight: 600; }
+p { color: var(--text-muted); }
+
+/* ---- Cards ---- */
+.card {
+  background: var(--surface);
+  border-radius: var(--radius);
+  padding: 24px;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border);
+}
+
+.card-sm { padding: 16px; border-radius: var(--radius-sm); }
+
+/* ---- Buttons ---- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 20px;
+  border-radius: var(--radius-sm);
+  font-size: .9rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  transition: all 0.2s;
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: white;
+}
+.btn-primary:hover { background: var(--primary-dark); transform: translateY(-1px); }
+
+.btn-outline {
+  background: transparent;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+}
+.btn-outline:hover { background: var(--primary); color: white; }
+
+.btn-success { background: var(--success); color: white; }
+.btn-danger  { background: var(--danger);  color: white; }
+
+/* ---- Badges ---- */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: .75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+}
+.badge-micro { background: var(--micro-light); color: var(--micro); }
+.badge-macro { background: var(--macro-light); color: var(--macro); }
+
+/* ---- Progress bar ---- */
+.progress-bar-bg {
+  background: var(--border);
+  border-radius: 999px;
+  height: 8px;
+  overflow: hidden;
+}
+.progress-bar-fill {
+  height: 100%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--primary), var(--primary-light));
+  transition: width 0.5s ease;
+}
+
+/* ---- Tabs ---- */
+.tabs {
+  display: flex;
+  gap: 4px;
+  background: var(--surface-2);
+  border-radius: var(--radius-sm);
+  padding: 4px;
+  border: 1px solid var(--border);
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+.tab {
+  padding: 8px 18px;
+  border-radius: 6px;
+  border: none;
+  background: transparent;
+  color: var(--text-muted);
+  font-size: .875rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.tab.active {
+  background: white;
+  color: var(--primary);
+  box-shadow: 0 1px 4px rgba(0,0,0,.1);
+}
+.tab:hover:not(.active) { color: var(--text); }
+
+/* ---- Definition list ---- */
+.def-grid {
+  display: grid;
+  gap: 12px;
+}
+.def-item {
+  background: var(--surface-2);
+  border-left: 4px solid var(--primary-light);
+  padding: 12px 16px;
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+.def-term { font-weight: 700; color: var(--primary-dark); font-size: .9rem; }
+.def-body { color: var(--text-muted); font-size: .875rem; margin-top: 2px; }
+
+/* ---- Theory section ---- */
+.theory-section { margin-bottom: 28px; }
+.theory-heading {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.theory-heading::before {
+  content: '';
+  display: inline-block;
+  width: 4px;
+  height: 18px;
+  background: var(--primary);
+  border-radius: 2px;
+}
+.theory-body {
+  color: var(--text-muted);
+  font-size: .9rem;
+  line-height: 1.75;
+}
+
+/* ---- Formula box ---- */
+.formula-box {
+  background: linear-gradient(135deg, #f0f4ff, #e8edff);
+  border: 1px solid var(--primary-light);
+  border-radius: var(--radius-sm);
+  padding: 14px 18px;
+  margin: 8px 0;
+}
+.formula-name { font-size: .8rem; font-weight: 700; color: var(--primary); text-transform: uppercase; letter-spacing: .5px; }
+.formula-expr { font-size: 1.1rem; font-weight: 700; color: var(--primary-dark); font-family: 'Georgia', serif; margin: 4px 0; }
+.formula-note { font-size: .8rem; color: var(--text-muted); }
+
+/* ---- Quiz styles ---- */
+.quiz-option {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 12px 16px;
+  border-radius: var(--radius-sm);
+  border: 2px solid var(--border);
+  cursor: pointer;
+  transition: all 0.2s;
+  font-size: .9rem;
+  background: white;
+  text-align: left;
+  width: 100%;
+  margin-bottom: 8px;
+}
+.quiz-option:hover:not(:disabled) { border-color: var(--primary); background: #f0f4ff; }
+.quiz-option.correct  { border-color: var(--success); background: #d1fae5; color: #065f46; }
+.quiz-option.wrong    { border-color: var(--danger);  background: #fee2e2; color: #991b1b; }
+.quiz-option.selected-correct { border-color: var(--success); background: #d1fae5; }
+.quiz-option:disabled { cursor: default; }
+
+.quiz-feedback {
+  padding: 14px 18px;
+  border-radius: var(--radius-sm);
+  font-size: .875rem;
+  margin-top: 12px;
+  font-weight: 500;
+}
+.quiz-feedback.correct { background: #d1fae5; color: #065f46; border: 1px solid #6ee7b7; }
+.quiz-feedback.wrong   { background: #fee2e2; color: #991b1b; border: 1px solid #fca5a5; }
+
+/* ---- Real-world box ---- */
+.realworld-box {
+  background: linear-gradient(135deg, #fffbeb, #fef3c7);
+  border: 1px solid #fcd34d;
+  border-radius: var(--radius-sm);
+  padding: 16px 20px;
+}
+.realworld-label { font-size: .75rem; font-weight: 700; color: #92400e; text-transform: uppercase; letter-spacing: .5px; margin-bottom: 6px; }
+
+/* ---- Essay styles ---- */
+.peel-step {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+.peel-letter {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  font-weight: 900;
+  flex-shrink: 0;
+}
+
+/* ---- Scrollbar ---- */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--text-muted); }
+
+/* ---- Animations ---- */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.fade-in { animation: fadeIn 0.3s ease; }
+
+/* ---- Utility ---- */
+.grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; }
+@media (max-width: 900px) { .grid-2, .grid-3 { grid-template-columns: 1fr; } }
+
+.flex { display: flex; }
+.flex-between { display: flex; justify-content: space-between; align-items: center; }
+.flex-center  { display: flex; justify-content: center; align-items: center; }
+.gap-8  { gap: 8px; }
+.gap-12 { gap: 12px; }
+.gap-16 { gap: 16px; }
+.gap-24 { gap: 24px; }
+.mt-8   { margin-top: 8px; }
+.mt-16  { margin-top: 16px; }
+.mt-24  { margin-top: 24px; }
+.mb-8   { margin-bottom: 8px; }
+.mb-16  { margin-bottom: 16px; }
+.mb-24  { margin-bottom: 24px; }
+.text-center { text-align: center; }
+.text-sm { font-size: .875rem; }
+.text-xs { font-size: .75rem; }
+.text-muted { color: var(--text-muted); }
+.font-bold { font-weight: 700; }
+.w-full { width: 100%; }
