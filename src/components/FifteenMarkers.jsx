@@ -48,7 +48,7 @@ function MarkSchemePanel({ open, onToggle }) {
             ))}
           </div>
 
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 20, marginBottom: 16 }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: 20, marginBottom: 16 }}>
             <div>
               <div style={{ fontWeight: 700, fontSize: '.85rem', color: '#1e293b', marginBottom: 10 }}>AO Weighting (15 marks)</div>
               <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap' }}>

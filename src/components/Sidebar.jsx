@@ -11,15 +11,13 @@ export default function Sidebar({ open, onClose, currentView, selectedTopicId, p
       {open && (
         <div
           onClick={onClose}
-          style={{
-            position: 'fixed', inset: 0, background: 'rgba(0,0,0,0.4)',
-            zIndex: 199, display: 'none',
-          }}
+          style={{ position: 'fixed', inset: 0, background: 'rgba(0,0,0,0.4)', zIndex: 199 }}
           className="sidebar-backdrop"
         />
       )}
 
       <aside
+        className={`sidebar${open ? ' sidebar-open' : ''}`}
         style={{
           position: 'fixed', top: 0, left: 0, bottom: 0,
           width: 'var(--sidebar-w)',

@@ -620,7 +620,7 @@ export default function DiagramLibrary() {
         })}
       </div>
 
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(420px, 1fr))', gap: 20 }}>
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(min(420px, 100%), 1fr))', gap: 20 }}>
         {filtered.map(d => <DiagramCard key={d.id} d={d} />)}
       </div>
     </div>

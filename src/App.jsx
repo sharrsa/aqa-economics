@@ -81,11 +81,11 @@ export default function App() {
       <button
         onClick={() => setSidebarOpen(true)}
         style={{
-          position: 'fixed', top: 16, left: 16, zIndex: 100,
-          display: 'none', // shown via media query override in CSS
+          position: 'fixed', top: 16, left: 16, zIndex: 300,
           background: 'var(--primary)', color: 'white',
           border: 'none', borderRadius: '8px',
-          padding: '8px 12px', cursor: 'pointer', fontSize: '1.2rem',
+          padding: '8px 14px', cursor: 'pointer', fontSize: '1.2rem',
+          boxShadow: '0 2px 8px rgba(0,0,0,0.2)',
         }}
         className="mobile-menu-btn"
       >
