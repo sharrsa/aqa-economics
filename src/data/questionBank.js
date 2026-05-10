@@ -4006,6 +4006,516 @@ export const questionBank = [
     correct: [1, 2],
     explanation: 'The PPF shifts inward when productive CAPACITY falls. A natural disaster (B) physically destroys capital stock, reducing productive potential. Long-term structural unemployment with skills mismatch (C) permanently reduces effective labour — workers cannot contribute to output at current skill levels. A demand shock (A) moves the economy inside the PPF (underutilisation) without shifting it. Lower investment (E) may eventually reduce capital stock but is not immediate. Fiscal policy (D) doesn\'t directly affect productive capacity.',
   },
+
+  // ─── SUPPLY-SIDE POLICY ──────────────────────────────────────
+
+  {
+    id: 'ssp-h-1', topic: 'supply-side-policy', topicLabel: 'Supply-Side Policy', difficulty: 'hard',
+    question: 'Which of the following BEST distinguishes market-based supply-side policies from interventionist supply-side policies?',
+    options: [
+      'Market-based policies always reduce government spending; interventionist policies always increase it',
+      'Market-based policies rely on price signals and incentives (deregulation, tax cuts, privatisation) to improve efficiency; interventionist policies involve direct government spending or provision to address market failures in labour and capital markets',
+      'Market-based policies are preferred by left-wing governments; interventionist policies by right-wing ones',
+      'Interventionist policies only affect the short-run aggregate supply curve; market-based policies only shift the long-run curve',
+      'Market-based policies require international coordination; interventionist policies are purely domestic',
+    ],
+    correct: 1,
+    explanation: 'Supply-side policies aim to shift LRAS rightward by improving productive capacity and efficiency. Market-based: deregulation (remove barriers to competition), income tax cuts (strengthen work incentives), privatisation (expose firms to profit motive), trade union reform (increase labour market flexibility). Interventionist: government spending on education and training (human capital), infrastructure investment, R&D subsidies, active labour market programmes. The key distinction is whether the government uses price signals or direct provision.',
+  },
+
+  {
+    id: 'ssp-h-2', topic: 'supply-side-policy', topicLabel: 'Supply-Side Policy', difficulty: 'hard',
+    question: 'Privatisation is argued to improve productive efficiency primarily because:',
+    options: [
+      'Government ownership always leads to corruption and misallocation of resources',
+      'Private firms face a hard budget constraint and profit motive — managers have stronger incentives to minimise costs and innovate, since losses cannot be indefinitely subsidised by taxpayers',
+      'Private firms can raise capital more cheaply than governments in all market conditions',
+      'Privatisation eliminates all natural monopoly characteristics, instantly creating competitive markets',
+      'Private ownership guarantees higher wages for workers, attracting better human capital',
+    ],
+    correct: 1,
+    explanation: 'The efficiency case for privatisation: state-owned enterprises face a soft budget constraint — losses are covered by government funding, reducing pressure to minimise costs. Private firms facing bankruptcy risk have stronger incentives for X-efficiency (eliminating wasteful slack). Managers\' bonuses tied to profit reinforce cost-cutting and innovation. However, privatising natural monopolies (water, rail) may simply transfer monopoly power to private hands — regulatory oversight (Ofwat, ORR) is required to prevent exploitation. UK evidence (BT, BA) shows mixed results: efficiency gains but higher prices in some cases.',
+  },
+
+  {
+    id: 'ssp-h-3', topic: 'supply-side-policy', topicLabel: 'Supply-Side Policy', difficulty: 'hard',
+    type: 'multi',
+    question: 'Which TWO supply-side policies most directly address structural unemployment? Select ALL correct answers.',
+    options: [
+      'Cutting the top rate of income tax from 45% to 40% to incentivise high earners to work more hours',
+      'Government-funded retraining programmes for workers displaced by automation or deindustrialisation, addressing skills mismatch',
+      'Reducing interest rates to stimulate aggregate demand and create new vacancies across the economy',
+      'Reforming planning laws to allow more affordable housing in areas of high labour demand, reducing geographical immobility',
+      'Increasing unemployment benefits to allow workers more time to find suitable jobs',
+    ],
+    correct: [1, 3],
+    explanation: 'Structural unemployment arises from a mismatch between the skills workers have and the skills firms need, often combined with geographical immobility. (B) Retraining programmes directly address skills mismatch — the most common cause of structural unemployment post-deindustrialisation. (D) Housing reform reduces geographical immobility — workers in Durham cannot easily take jobs in London when housing is unaffordable. Option C is demand-side (monetary policy), not supply-side. Income tax cuts (A) affect work incentives but not skills mismatch. Higher benefits (E) are a demand-side transfer.',
+  },
+
+  {
+    id: 'ssp-h-4', topic: 'supply-side-policy', topicLabel: 'Supply-Side Policy', difficulty: 'hard',
+    question: 'Government investment in education is justified as a supply-side policy because:',
+    options: [
+      'Education is a pure public good — non-rival and non-excludable — so the market will not provide it at all',
+      'Education generates positive externalities (more productive workforce, innovation spillovers, lower crime) that cause private demand to be below the social optimum — the state corrects this underinvestment',
+      'Private schools consistently produce worse outcomes than state schools, proving market provision is inefficient',
+      'Human capital investment has diminishing returns, so only the government can ensure equal distribution across the population',
+      'Education is a Giffen good — demand falls as incomes rise — requiring state provision to maintain supply',
+    ],
+    correct: 1,
+    explanation: 'Education is a merit good with significant positive externalities: more educated workers are more productive (raising MRP across the economy), generate innovation spillovers, pay more taxes, and impose lower health and welfare costs. The free market underprovides because individuals cannot capture the full social return — MSB > MPB. State provision or subsidy corrects this. Heckman\'s research shows early childhood education has returns of ~13%/year — the highest of any investment. Education is not a pure public good (it is excludable and rival), but the externality justification is overwhelming.',
+  },
+
+  {
+    id: 'ssp-h-5', topic: 'supply-side-policy', topicLabel: 'Supply-Side Policy', difficulty: 'hard',
+    question: 'Deregulation of labour markets (e.g., weakening employment protection legislation) improves labour market flexibility but may have which significant drawback?',
+    options: [
+      'Deregulation always increases wage costs for firms, reducing international competitiveness',
+      'Easier dismissal reduces workers\' job security, potentially depressing consumer confidence and aggregate demand, while also reducing firm investment in worker training since the return on training investments falls when workers can be dismissed cheaply',
+      'Deregulated labour markets always result in higher structural unemployment as workers rotate between jobs more frequently',
+      'Labour market deregulation is illegal under WTO rules for economies with persistent current account deficits',
+      'Reduced employment protection causes immediate wage inflation as workers demand compensation for increased insecurity',
+    ],
+    correct: 1,
+    explanation: 'The flexibility-security trade-off: deregulation (weaker unfair dismissal rights, easier redundancy) increases firms\' ability to adjust workforce size — reducing structural unemployment by making hiring less risky. However, drawbacks include: (1) reduced training investment — why train workers you can cheaply dismiss? This worsens long-run human capital. (2) job insecurity reduces consumer confidence — precarious workers save more and spend less, potentially depressing AD. (3) power imbalance shifts to employers, suppressing wages. The Danish "flexicurity" model attempts to balance both: easy dismissal + generous benefits + active retraining.',
+  },
+
+  {
+    id: 'ssp-h-6', topic: 'supply-side-policy', topicLabel: 'Supply-Side Policy', difficulty: 'hard',
+    question: 'R&D tax credits as a supply-side policy are most justified by which market failure?',
+    options: [
+      'Firms underinvest in R&D because research is a public bad — it generates negative externalities through creative destruction',
+      'Knowledge generated by R&D is often non-rival and partially non-excludable — once discovered, competitors can imitate innovations, reducing the private return below the social return and causing underinvestment',
+      'R&D is too risky for private firms since all innovation projects have positive expected returns but high variance',
+      'Financial markets are perfectly efficient, so private R&D investment is always at the socially optimal level without intervention',
+      'R&D tax credits are justified by economies of scale — larger firms do more research, so tax credits help large firms grow',
+    ],
+    correct: 1,
+    explanation: 'The knowledge externality: R&D produces knowledge — which, unlike physical goods, is non-rival (my using it doesn\'t reduce its availability) and imperfectly excludable (patents expire, knowledge diffuses). Competitors observe and imitate innovations (reverse engineering, patent expiry, talent poaching), capturing returns the innovating firm cannot. This means social return to R&D > private return → underinvestment in innovation relative to the social optimum. Government correction: R&D tax credits (UK: 27.5% super-deduction for SMEs), direct grants, patent protection extension, or public research funding (universities). This is endogenous growth theory — Arrow\'s "learning by doing".',
+  },
+
+  {
+    id: 'ssp-h-7', topic: 'supply-side-policy', topicLabel: 'Supply-Side Policy', difficulty: 'hard',
+    type: 'multi',
+    question: 'Which TWO are limitations of supply-side policies as a tool for macroeconomic management? Select ALL correct answers.',
+    options: [
+      'Supply-side policies shift LRAS rightward, which reduces inflationary pressure — this is actually a benefit, not a limitation',
+      'Supply-side policies typically have very long time lags — education reform takes 10-15 years to raise productivity; infrastructure investment takes 5-10 years to complete',
+      'The benefits of supply-side reforms are often difficult to measure and attribute, making it hard to evaluate whether policies are working or justify continued investment',
+      'Supply-side policies always increase inequality, making them politically unsustainable in democratic countries',
+      'Deregulation-based supply-side policies increase aggregate demand, potentially causing inflation — the opposite of their intended effect',
+    ],
+    correct: [1, 2],
+    explanation: 'Key limitations of supply-side policy: (B) Long time lags — a child entering an improved school system today won\'t contribute to the workforce for 15+ years. Infrastructure (HS2 planned 2009, still incomplete) shows investment-to-benefit delays of decades. This makes supply-side policy ineffective for managing short-run cycles. (C) Attribution problem — it is genuinely difficult to isolate whether productivity growth resulted from a specific policy or from other factors (technology, global conditions). This creates accountability gaps. Option D is wrong — some supply-side policies (education spending) may reduce inequality.',
+  },
+
+  {
+    id: 'ssp-h-8', topic: 'supply-side-policy', topicLabel: 'Supply-Side Policy', difficulty: 'hard',
+    question: 'The "trickle-down" theory justifying income tax cuts for high earners as a supply-side policy argues that:',
+    options: [
+      'High earners will spend their tax cuts on luxury goods, directly employing low-wage service workers',
+      'Lower taxes on high earners increase the marginal reward to effort, risk-taking and entrepreneurship — generating investment, innovation and job creation that benefit all income groups through higher wages and employment',
+      'Tax cuts for the wealthy increase government revenue via the Laffer curve, funding increased public services for lower earners',
+      'High earners donate their tax savings to charities, which redistribute resources to the poor more efficiently than government programmes',
+      'Cutting top rates eliminates the brain drain of entrepreneurs to lower-tax jurisdictions, preserving domestic human capital',
+    ],
+    correct: 1,
+    explanation: 'Trickle-down (supply-side economics): reducing marginal tax rates on high earners increases incentive to work, invest, and take entrepreneurial risks. Higher investment creates capital, jobs, and productivity growth benefiting all workers. Empirical evidence is deeply contested — the Reagan (1981) and Thatcher tax cuts did not obviously reduce inequality, and UK evidence shows limited behavioural response at top rates. IMF research (2015) found tax cuts for the top quintile actually reduce growth over 5 years. The Laffer effect exists but typically at much higher marginal rates than current UK rates (~45%), meaning cuts from current levels likely reduce revenue.',
+  },
+
+  {
+    id: 'ssp-h-9', topic: 'supply-side-policy', topicLabel: 'Supply-Side Policy', difficulty: 'hard',
+    question: 'Infrastructure investment (roads, rail, broadband) is classified as a supply-side policy because:',
+    options: [
+      'It is funded by government borrowing, which directly increases aggregate demand through the fiscal multiplier',
+      'It reduces firms\' transport and logistics costs, increases labour market connectivity (workers can access more jobs), and creates agglomeration effects — permanently shifting LRAS rightward by raising the productive capacity of the economy',
+      'Infrastructure is a capital good, so its production creates employment in construction, reducing cyclical unemployment',
+      'Better infrastructure reduces imports by making domestic producers more competitive, improving the current account balance',
+      'Infrastructure investment is always more efficient than private investment because governments can borrow at lower interest rates',
+    ],
+    correct: 1,
+    explanation: 'Infrastructure as supply-side policy: lower transport costs reduce firms\' average costs (shifting SRAS and LRAS right). Better connectivity enables workers to access a wider labour market — reducing frictional unemployment and improving matching efficiency. High-speed rail connects cities, enabling agglomeration economies. Broadband enables digital commerce and remote work. These are long-run capacity effects, distinct from the short-run demand effects of construction spending. The UK\'s National Infrastructure Strategy (2020) estimates every £1 of infrastructure generates £1.70-£2.50 in economic output over time.',
+  },
+
+  // ─── FINANCIAL MARKETS ───────────────────────────────────────
+
+  {
+    id: 'fin-h-12', topic: 'financial-markets', topicLabel: 'Financial Markets', difficulty: 'hard',
+    question: 'The primary economic function of financial markets is to:',
+    options: [
+      'Generate profits for banks and financial institutions through interest rate spreads',
+      'Channel savings from surplus units (households, firms with excess funds) to deficit units (borrowers, investors) — efficiently allocating capital to its highest-return uses',
+      'Prevent excessive risk-taking by firms through mandatory credit checks and collateral requirements',
+      'Allow governments to finance public expenditure through bond issuance without raising taxes',
+      'Set the risk-free rate of interest that determines returns across all asset classes in the economy',
+    ],
+    correct: 1,
+    explanation: 'Financial markets perform intermediation: households save → financial markets channel these funds → firms borrow to invest. This transforms the short-term deposits of savers into long-term investment funding. Key functions: (1) maturity transformation (borrow short, lend long); (2) risk diversification (spreading risk across many savers); (3) price discovery (interest rates reflect risk and return). Without financial markets, savers and borrowers would struggle to find each other — a fundamental coordination failure. Well-functioning financial markets raise economic growth by directing capital to highest-return projects (King & Levine, 1993).',
+  },
+
+  {
+    id: 'fin-h-13', topic: 'financial-markets', topicLabel: 'Financial Markets', difficulty: 'hard',
+    question: 'Moral hazard in banking occurs when:',
+    options: [
+      'Banks lend to borrowers without adequate credit checks, creating adverse selection problems',
+      'Bankers act dishonestly, deliberately falsifying accounts to conceal losses from regulators',
+      'Banks take on excessive risk knowing that government guarantees (deposit insurance, "too big to fail" bailouts) mean the downside risk is borne by taxpayers, not shareholders — privatising gains while socialising losses',
+      'Customers withdraw deposits during a bank run, forcing asset fire sales that worsen bank solvency',
+      'Banks collude to fix interest rates above the competitive level, reducing allocative efficiency',
+    ],
+    correct: 2,
+    explanation: 'Moral hazard in banking: once insured (by government deposit guarantees or implicit "too big to fail" status), banks have reduced incentive to manage risk carefully. If bets pay off, shareholders profit. If they fail, governments bail them out (as in 2008: RBS £45bn, Lloyds £20bn). This creates a systematic bias toward excessive risk-taking. Solutions: higher capital requirements (Basel III/IV), bail-in rules (creditors bear losses, not taxpayers), ringfencing retail from investment banking (UK Banking Act 2013), size limits. The principal-agent problem is also present — traders\' bonuses incentivise short-run risk-taking regardless of long-run consequences.',
+  },
+
+  {
+    id: 'fin-h-14', topic: 'financial-markets', topicLabel: 'Financial Markets', difficulty: 'hard',
+    question: 'Adverse selection in financial markets arises from:',
+    options: [
+      'Lenders choosing to lend only to the highest-quality borrowers, denying credit to productive but risky firms',
+      'Pre-contractual information asymmetry: borrowers know more about their own riskiness than lenders. Setting a single interest rate causes only high-risk borrowers to apply — the pool of borrowers selected worsens as the rate rises',
+      'Banks selecting adverse economic conditions in which to raise lending rates, extracting higher profits during recessions',
+      'Regulators using adverse risk models that overstate bank capital requirements, reducing lending to the real economy',
+      'Stock market investors systematically undervaluing firms with high intangible assets, misallocating capital',
+    ],
+    correct: 1,
+    explanation: 'Adverse selection (Akerlof\'s "lemons" problem applied to credit): before lending, banks cannot perfectly distinguish low-risk from high-risk borrowers. If banks raise interest rates, low-risk borrowers (who have good alternative options) drop out; only high-risk borrowers (desperate for credit) remain. The "adverse" pool is selected. This may lead to credit rationing — banks prefer not to raise rates and instead ration credit by quantity (collateral requirements, credit scoring). Policy implication: credit bureaus and information sharing reduce adverse selection by improving lender knowledge, improving capital allocation.',
+  },
+
+  {
+    id: 'fin-h-15', topic: 'financial-markets', topicLabel: 'Financial Markets', difficulty: 'hard',
+    type: 'multi',
+    question: 'Which TWO mechanisms explain how financial market instability can cause a recession in the real economy? Select ALL correct answers.',
+    options: [
+      'A fall in asset prices reduces household wealth, lowering consumer confidence and spending — a negative wealth effect that contracts aggregate demand',
+      'Rising interest rates during a financial crisis always cause hyperinflation in the following year',
+      'A banking crisis reduces credit availability — firms cannot borrow to invest and households cannot borrow to consume, directly contracting aggregate demand',
+      'Financial instability always causes the exchange rate to appreciate, worsening the current account and reducing net exports',
+      'Stock market crashes automatically reduce government tax revenues to zero, forcing immediate fiscal austerity',
+    ],
+    correct: [0, 2],
+    explanation: 'Financial instability → real economy: (A) Negative wealth effect: falling house prices and stock values reduce household net worth. As wealth falls, consumption falls (life-cycle model: people smooth consumption using wealth). UK households lost ~£700bn in wealth during the 2008 crisis — a major drag on consumer spending. (C) Credit crunch: banks facing capital losses restrict new lending. Firms cannot fund investment; consumers cannot borrow for housing. This directly cuts the I and C components of AD. Both channels operated powerfully in 2008-09, producing the UK\'s deepest recession since 1931.',
+  },
+
+  {
+    id: 'fin-h-16', topic: 'financial-markets', topicLabel: 'Financial Markets', difficulty: 'hard',
+    question: 'The "too big to fail" (TBTF) problem in banking refers to:',
+    options: [
+      'Banks that have grown so large that they cannot be managed effectively by their own executives',
+      'The implicit government guarantee that systemically important banks will be bailed out if they fail — because their failure would trigger contagion, destroying the financial system and causing severe economic harm',
+      'Regulatory limits that prevent large banks from being broken up, even when they engage in anti-competitive behaviour',
+      'The difficulty regulators face in monitoring the activities of banks with complex global operations across multiple jurisdictions',
+      'The fact that large banks can borrow at lower rates than smaller banks, giving them an unfair competitive advantage in credit markets',
+    ],
+    correct: 1,
+    explanation: 'TBTF: when a bank is so deeply interconnected with the financial system that its failure would cause systemic collapse (counterparty defaults, payment system failure, credit market freeze), governments have no choice but to bail it out. This implicit guarantee creates moral hazard — TBTF banks take on more risk, knowing losses are socialised. It also creates competitive distortion (E is a separate but real problem — TBTF banks borrow more cheaply due to the implicit government backstop). Post-2008 reforms: Financial Stability Board "G-SIB" list requires extra capital buffers; bail-in rules force bondholders to absorb losses before taxpayers.',
+  },
+
+  {
+    id: 'fin-h-17', topic: 'financial-markets', topicLabel: 'Financial Markets', difficulty: 'hard',
+    question: 'The money multiplier in a fractional reserve banking system is:',
+    options: [
+      'The ratio of broad money (M4) to the monetary base (M0), which equals 1 / reserve ratio in a simple model',
+      'The number of times money changes hands in the economy during one year (velocity of circulation)',
+      'The rate at which the central bank\'s printing of money leads to proportional inflation, as described by the quantity theory',
+      'The interest rate premium that commercial banks charge above the central bank base rate',
+      'The fiscal multiplier applied to money supply changes rather than government spending changes',
+    ],
+    correct: 0,
+    explanation: 'In fractional reserve banking: banks hold only a fraction (r) of deposits as reserves and lend the rest. An initial deposit of £1,000 with r = 10% allows £1,000/0.1 = £10,000 of broad money to be created (multiplier = 1/r = 10). Each round of lending creates new deposits which are partly re-lent. In practice, the money multiplier is much lower than the simple formula suggests: banks hold excess reserves, some cash leaks from the banking system, and the Bank of England no longer mechanically controls money supply through reserve requirements. Post-2008, QE massively expanded M0 but the multiplier fell as banks hoarded reserves.',
+  },
+
+  {
+    id: 'fin-h-18', topic: 'financial-markets', topicLabel: 'Financial Markets', difficulty: 'hard',
+    question: 'Capital adequacy requirements (e.g., Basel III) impose minimum capital ratios on banks primarily to:',
+    options: [
+      'Prevent banks from earning excessive profits by limiting the leverage they can use to amplify returns on equity',
+      'Ensure banks hold sufficient equity as a loss-absorbing buffer — so that if loans go bad, losses are borne by shareholders before depositors or taxpayers, reducing systemic risk',
+      'Set a maximum interest rate that banks can charge on loans, protecting borrowers from predatory lending',
+      'Require banks to invest a proportion of their assets in government bonds, providing a captive market for sovereign debt',
+      'Force banks to maintain minimum liquidity ratios so they can meet all withdrawal requests immediately without selling assets',
+    ],
+    correct: 1,
+    explanation: 'Capital requirements (Basel III: minimum 10.5% risk-weighted capital ratio): banks must fund a proportion of assets with equity (shareholders\' funds). Equity absorbs losses first — if a £100bn bank with 10% capital suffers £8bn of loan losses, shareholders absorb this; depositors and the government are protected. Pre-2008, many banks operated with 2-3% capital (leverage of 30-50x) — a small fall in asset values wiped out all capital. Post-2008 reforms: higher capital ratios, countercyclical buffers (extra capital in good times), and leverage ratios. The Liquidity Coverage Ratio (separate from capital) addresses option E.',
+  },
+
+  {
+    id: 'fin-h-19', topic: 'financial-markets', topicLabel: 'Financial Markets', difficulty: 'hard',
+    type: 'multi',
+    question: 'Which TWO explain why financial market liberalisation (deregulation) in the 1980s–2000s increased systemic risk? Select ALL correct answers.',
+    options: [
+      'Deregulation allowed banks to move into new activities (investment banking, derivatives) they did not fully understand, creating complex interconnections that regulators struggled to monitor',
+      'Deregulation always increases interest rates, raising the cost of borrowing and reducing investment',
+      'The removal of Glass-Steagall-type separation between retail and investment banking allowed risky trading losses to threaten customer deposits — contagion between functions increased systemic fragility',
+      'Deregulation eliminated all forms of deposit insurance, leaving savers fully exposed to bank failure',
+      'Liberalisation reduced competition between banks, giving each institution more market power to charge higher fees',
+    ],
+    correct: [0, 2],
+    explanation: 'Financial deregulation and systemic risk: (A) Banks diversified into complex instruments (CDOs, CDS, structured products) without understanding the correlations and tail risks involved. Regulators were equally unprepared — a classic government failure compounding market failure. (C) In the UK, "Big Bang" (1986) and the US repeal of Glass-Steagall (1999) blurred retail/investment banking boundaries. When investment banking losses mounted in 2008, they threatened retail deposits, forcing government intervention. Both channels operated in the GFC. The solution (ringfencing, Vickers Report 2011) re-separates retail and investment banking.',
+  },
+
+  // ─── MONETARY POLICY ─────────────────────────────────────────
+
+  {
+    id: 'mp-h-14', topic: 'monetary-policy', topicLabel: 'Monetary Policy', difficulty: 'hard',
+    question: 'The monetary policy transmission mechanism works primarily through which channels when the Bank of England cuts interest rates?',
+    options: [
+      'Lower rates directly increase government tax revenues, funding higher public spending on infrastructure',
+      'Lower rates reduce the cost of borrowing for consumers and firms (investment and consumption rise), lower mortgage costs raise disposable income, asset prices rise (wealth effect), and the exchange rate depreciates (boosting net exports)',
+      'Lower rates automatically reduce wage growth by discouraging labour market participation among high-income earners',
+      'The Bank of England directly controls all retail lending rates, so cuts are immediately passed through to all borrowers',
+      'Lower rates cause the money supply to contract as banks earn less on reserves, reducing inflationary pressure',
+    ],
+    correct: 1,
+    explanation: 'The BoE transmission mechanism (multiple channels): (1) Credit channel: lower Bank Rate reduces mortgage and loan rates → higher consumer borrowing and business investment (↑C, ↑I → ↑AD). (2) Asset price channel: lower discount rate raises bond and equity prices → positive wealth effect → ↑C. (3) Exchange rate channel: lower UK rates make sterling less attractive → capital outflow → sterling depreciates → UK exports cheaper, imports more expensive → ↑NX. (4) Expectations channel: credible easing signals future growth, boosting confidence. Each channel has different lags and potency; the credit channel is fastest, the expectations channel most uncertain.',
+  },
+
+  {
+    id: 'mp-h-15', topic: 'monetary-policy', topicLabel: 'Monetary Policy', difficulty: 'hard',
+    question: 'The zero lower bound (ZLB) on interest rates is a constraint on monetary policy because:',
+    options: [
+      'The Bank of England\'s charter legally prohibits setting the base rate below zero percent',
+      'Nominal interest rates cannot persistently go significantly below zero — holders of cash can earn a zero return by holding physical currency, so deeply negative rates would trigger cash hoarding and bank disintermediation, undermining the financial system',
+      'At zero interest rates, all investment projects become profitable, so the economy automatically reaches full employment without further stimulus',
+      'The ZLB causes deflation, which automatically restores the real interest rate to positive, stimulating recovery',
+      'International capital flows prevent the UK from setting rates below those of the US Federal Reserve',
+    ],
+    correct: 1,
+    explanation: 'The ZLB: conventional monetary policy cuts rates to stimulate demand. But nominal rates have a floor near zero — households/firms can always hold physical cash yielding 0% rather than accept sufficiently negative rates. At zero (or near-zero), rate cuts lose their stimulative power — Keynes\'s liquidity trap. This is why the 2008-09 crisis prompted unconventional policy: QE (asset purchases to lower long-term rates), forward guidance (committing to keep rates low to manage expectations), and helicopter money proposals. Some central banks (ECB, BoJ) did impose modestly negative rates, but these created bank profitability problems rather than traditional stimulus.',
+  },
+
+  {
+    id: 'mp-h-16', topic: 'monetary-policy', topicLabel: 'Monetary Policy', difficulty: 'hard',
+    question: 'Inflation targeting (the UK\'s 2% CPI target) improves monetary policy effectiveness primarily by:',
+    options: [
+      'Giving the government direct control over interest rate decisions, ensuring monetary and fiscal policy are coordinated',
+      'Anchoring inflation expectations — if households and firms believe inflation will remain at 2%, wage demands and price-setting reflect this, making 2% self-fulfilling and reducing the cost of maintaining low inflation',
+      'Eliminating all economic cycles by ensuring the money supply grows exactly 2% per year',
+      'Allowing the Bank of England to focus exclusively on unemployment, since inflation is self-correcting at 2%',
+      'Creating an automatic mechanism that raises interest rates whenever inflation exceeds 2%, without requiring MPC judgment',
+    ],
+    correct: 1,
+    explanation: 'Inflation targeting and credibility: the central insight is expectations management. If workers expect 2% inflation, they demand ~2% wage rises. If firms expect 2% input cost rises, they raise prices by ~2%. These expectations are self-fulfilling — the economy converges on 2% without requiring large output-gap adjustments. Credible targets allow the central bank to achieve low inflation with lower sacrifice ratios (less unemployment needed to reduce inflation). Bank of England independence (1997) and the 2% target anchored UK inflation expectations — the MPC can set policy without political interference. If credibility is lost (as when inflation hit 11% in 2022), expectations become un-anchored and disinflation is more costly.',
+  },
+
+  {
+    id: 'mp-h-17', topic: 'monetary-policy', topicLabel: 'Monetary Policy', difficulty: 'hard',
+    type: 'multi',
+    question: 'Which TWO are significant limitations of using interest rate changes as the primary tool of monetary policy? Select ALL correct answers.',
+    options: [
+      'Higher interest rates reduce borrowing costs for firms, potentially stimulating investment rather than reducing it',
+      'Interest rate changes affect different groups asymmetrically — heavily mortgaged households face immediate income squeezes while those with savings gain, creating distributional effects that may undermine the intended demand reduction',
+      'Monetary policy cannot affect inflation, which is entirely determined by the growth rate of the money supply (strict monetarist view)',
+      'Long and variable time lags mean rate changes take 18-24 months to have their full effect on inflation — acting today requires predicting conditions two years ahead',
+      'The Bank of England is legally required to consult Parliament before changing interest rates, slowing response to economic shocks',
+    ],
+    correct: [1, 3],
+    explanation: 'Key limitations of interest rate policy: (B) Distributional effects: in 2022-23, UK mortgage holders on variable rates faced payment increases of £3,000-£5,000/year, while savers benefited. This creates regressive effects — over-indebted households (often lower-income) are hit hardest. The economy-wide demand reduction may be achieved with significant inequality. (D) Long and variable lags (Milton Friedman): the full effect of a rate change takes 18-24 months to flow through to inflation (credit channel, investment decisions, exchange rate, price-setting). This forces the MPC to forecast 2 years ahead, during which the economic situation may change dramatically.',
+  },
+
+  {
+    id: 'mp-h-18', topic: 'monetary-policy', topicLabel: 'Monetary Policy', difficulty: 'hard',
+    question: 'Forward guidance as a monetary policy tool (used by the Bank of England from 2013) aims to:',
+    options: [
+      'Guide commercial banks on what interest rates they should charge households and firms',
+      'Signal the future path of monetary policy to manage long-term expectations — if households and firms believe rates will stay low for several years, they borrow and invest more today without waiting for further cuts',
+      'Commit the government to specific spending targets that provide a fiscal counterpart to loose monetary policy',
+      'Provide forward exchange rate commitments to reduce business uncertainty about import and export prices',
+      'Predict future economic data so that the MPC can respond to recessions before they officially begin',
+    ],
+    correct: 1,
+    explanation: 'Forward guidance: when rates are at the zero lower bound, cutting further is impossible. Forward guidance ("rates will remain low until unemployment falls below X%") effectively reduces long-term rates by managing expectations — investors no longer demand a term premium for future rate uncertainty. BoE Governor Carney introduced threshold-based forward guidance in 2013 (linked to 7% unemployment). However, the UK\'s rapid unemployment fall undermined credibility when the threshold was reached without a rate rise. Pure time-based guidance ("low for at least 2 years") avoids this but loses conditionality. The effectiveness depends entirely on credibility.',
+  },
+
+  {
+    id: 'mp-h-19', topic: 'monetary-policy', topicLabel: 'Monetary Policy', difficulty: 'hard',
+    question: 'The Fisher equation states that the real interest rate approximately equals:',
+    options: [
+      'The nominal interest rate divided by the inflation rate',
+      'The nominal interest rate minus the expected inflation rate — the true return to saving after accounting for the erosion of purchasing power by inflation',
+      'The central bank base rate plus the commercial bank margin (spread) on retail loans',
+      'The growth rate of real GDP minus the unemployment rate, as predicted by Okun\'s Law',
+      'The nominal exchange rate adjusted for relative price levels between two countries',
+    ],
+    correct: 1,
+    explanation: 'Fisher equation: r ≈ i − π (real rate ≈ nominal rate − inflation). Example: BoE rate = 5%, inflation = 3% → real rate = ~2%. Policy relevance: in 2021-22, the BoE held rates near 0% while inflation rose to 11% → real rate = −11%, a massive stimulus to borrowing. This "negative real rate" environment was a key driver of the inflation surge. For investment decisions, firms compare the real cost of borrowing with the real return on investment — nominal rates matter only through their effect on real rates. The Fisher effect also predicts that higher expected inflation leads to proportionally higher nominal rates in the long run.',
+  },
+
+  // ─── FISCAL POLICY ───────────────────────────────────────────
+
+  {
+    id: 'fp-h-15', topic: 'fiscal-policy', topicLabel: 'Fiscal Policy', difficulty: 'hard',
+    question: 'The structural deficit differs from the cyclical deficit in that:',
+    options: [
+      'The structural deficit is caused by automatic stabilisers; the cyclical deficit is caused by discretionary policy decisions',
+      'The structural deficit persists even at full employment (output gap = 0) — it reflects a fundamental imbalance between government spending commitments and tax revenues; the cyclical deficit disappears as the economy recovers',
+      'The structural deficit is measured in real terms; the cyclical deficit is measured in nominal terms',
+      'The cyclical deficit includes debt interest payments; the structural deficit excludes them',
+      'The structural deficit is always larger than the cyclical deficit, since automatic stabilisers are more powerful than discretionary policy',
+    ],
+    correct: 1,
+    explanation: 'Structural vs cyclical deficit: the total deficit = structural + cyclical. Cyclical component: the deficit that arises because tax revenues fall and welfare spending rises during recessions — it disappears during recovery (automatic stabilisers at work). Structural component: the deficit that would remain even if the economy were at full employment — caused by long-run commitments (NHS, pensions, debt interest) exceeding structural tax revenues. Policy relevance: fiscal hawks focus on the structural deficit — eliminating the cyclical deficit by waiting for recovery is fine, but structural deficits require deliberate policy changes. The OBR independently estimates both for UK fiscal policy assessment.',
+  },
+
+  {
+    id: 'fp-h-16', topic: 'fiscal-policy', topicLabel: 'Fiscal Policy', difficulty: 'hard',
+    question: 'Financial crowding out occurs when increased government borrowing leads to:',
+    options: [
+      'Government spending directly replacing private sector investment in the same industries, reducing total investment',
+      'Higher interest rates caused by increased bond issuance — as the government competes for loanable funds, the price of borrowing rises, discouraging private investment',
+      'The government running out of available savings domestically, forcing it to borrow from abroad at punitive rates',
+      'Central bank money printing to fund the deficit, causing inflation that erodes private sector investment returns',
+      'The automatic stabiliser effect, whereby higher tax revenues during growth automatically fund the deficit without borrowing',
+    ],
+    correct: 1,
+    explanation: 'Financial crowding out: government borrows by issuing bonds → increases demand for loanable funds → pushes up interest rates → private investment becomes more expensive → firms cut investment plans. The extent of crowding out depends on: (1) how interest-elastic private investment is; (2) whether the economy is at full employment (at full capacity, government spending must displace private spending; with spare capacity, both can expand). At the zero lower bound (2009-2021), crowding out was minimal — the Bank held rates near zero. OBR estimates a 0.5% multiplier for tax cuts at full employment, implying significant crowding out in those conditions.',
+  },
+
+  {
+    id: 'fp-h-17', topic: 'fiscal-policy', topicLabel: 'Fiscal Policy', difficulty: 'hard',
+    question: 'Tax incidence refers to:',
+    options: [
+      'The number of taxpayers who file a tax return in any given year',
+      'Who legally bears the obligation to pay a tax to HMRC',
+      'The actual economic burden of a tax — who ultimately bears the cost in terms of reduced real income, which depends on the relative price elasticities of supply and demand rather than who the tax is legally levied on',
+      'The incidence of tax avoidance and evasion across different income groups',
+      'The distributional impact of government spending relative to its funding through taxation',
+    ],
+    correct: 2,
+    explanation: 'Tax incidence (economic vs statutory): a tax on cigarette producers (legal incidence = producers) is largely passed on to consumers as higher prices if demand is inelastic. The economic incidence (burden) falls on consumers. With inelastic demand and elastic supply, buyers bear most of the tax. With elastic demand and inelastic supply, sellers bear most. Example: UK stamp duty (legal incidence = buyer) is actually shared between buyer and seller — sellers reduce prices to close deals. This matters for policy: taxing labour (employers\' NI) may be partly borne by workers through wage suppression — the legal and economic incidence diverge.',
+  },
+
+  {
+    id: 'fp-h-18', topic: 'fiscal-policy', topicLabel: 'Fiscal Policy', difficulty: 'hard',
+    type: 'multi',
+    question: 'Which TWO factors make fiscal policy LESS effective as a stabilisation tool in an open economy? Select ALL correct answers.',
+    options: [
+      'In an open economy with high import propensity, a significant fraction of fiscal stimulus leaks abroad as spending on imports, reducing the domestic multiplier',
+      'High import propensity always causes hyperinflation in open economies, making fiscal expansion dangerous',
+      'If fiscal expansion causes a current account deficit and exchange rate appreciation (Mundell-Fleming under floating rates), net exports fall, partially or fully offsetting the fiscal stimulus',
+      'Automatic stabilisers work more strongly in closed economies, making discretionary fiscal policy redundant in open ones',
+      'Open economies always face higher interest rates, which automatically neutralise fiscal stimulus through crowding out',
+    ],
+    correct: [0, 2],
+    explanation: 'Fiscal policy in an open economy (Mundell-Fleming): (A) High import propensity reduces the multiplier — UK MPI is relatively high (~0.25-0.30). A £10bn stimulus partly leaks to Germany, China etc. as import spending rather than circulating domestically. (C) Under floating exchange rates with capital mobility, fiscal expansion raises domestic interest rates → capital inflow → exchange rate appreciation → exports fall, imports rise → net exports deteriorate (IS curve shifts right but BP/LM constraints push exchange rate up). In the extreme (perfect capital mobility, Mundell-Fleming), fiscal policy is completely neutralised under floating rates — only monetary policy is effective.',
+  },
+
+  {
+    id: 'fp-h-19', topic: 'fiscal-policy', topicLabel: 'Fiscal Policy', difficulty: 'hard',
+    question: 'Debt sustainability analysis asks whether a government\'s debt-to-GDP ratio will converge or diverge over time. The key condition for the debt ratio to stabilise is:',
+    options: [
+      'The government must run a balanced budget (zero deficit) in every year, preventing any further accumulation of debt',
+      'The primary surplus (non-interest surplus) must be large enough that the real interest rate on debt does not exceed the real growth rate of GDP — if r > g, debt dynamics are explosive without a primary surplus',
+      'The central bank must purchase all new government debt issuance, preventing the bond market from charging a risk premium',
+      'Tax revenues must grow at the same rate as government spending commitments, keeping the deficit constant as a share of GDP',
+      'The current account must be in surplus, ensuring the country can fund its debt domestically without relying on foreign creditors',
+    ],
+    correct: 1,
+    explanation: 'Debt sustainability: the debt-to-GDP ratio rises when the deficit exceeds the growth dividend on existing debt. Formally: Δ(D/Y) = (r-g)·(D/Y) - primary surplus/Y. If r (real interest rate on debt) > g (real GDP growth), debt snowballs without a primary surplus to offset it. Greece (2010-12): r spiked to 30%+ while g was negative — debt exploded. UK (2020-21): r near zero (QE suppressed yields) while government borrowed heavily — manageable. Piketty noted this condition is also central to wealth inequality (r > g). The OBR assesses UK debt sustainability using similar frameworks.',
+  },
+
+  // ─── ECONOMIC GROWTH ─────────────────────────────────────────
+
+  {
+    id: 'gd-h-16', topic: 'economic-growth', topicLabel: 'Economic Growth', difficulty: 'hard',
+    question: 'The Solow growth model predicts that in the long run, sustained per capita growth requires:',
+    options: [
+      'Continuous increases in the savings rate, which permanently raises the capital stock and output per worker',
+      'Technological progress — in the absence of technological change, diminishing returns to capital cause growth to slow and eventually stop at a "steady state" where investment just covers depreciation',
+      'A growing population, which expands the labour force and generates scale economies in production',
+      'Progressive redistribution of income, which raises aggregate consumption and sustains demand-led growth',
+      'Persistent trade surpluses, allowing capital accumulation to be financed without domestic savings',
+    ],
+    correct: 1,
+    explanation: 'Solow\'s exogenous growth model: capital accumulation faces diminishing marginal returns. As the capital-labour ratio rises, each additional unit of capital adds less output. Eventually, new investment only just covers depreciation — a "steady state". Without technological progress (exogenous in Solow\'s model), the economy stagnates at this steady state in per capita terms. Technological progress shifts the production function upward, enabling sustained growth. Policy implication: supply-side policies boosting capital accumulation (investment incentives) have one-off level effects; only sustained technological improvement raises the long-run growth rate. This motivates R&D subsidies.',
+  },
+
+  {
+    id: 'gd-h-17', topic: 'economic-growth', topicLabel: 'Economic Growth', difficulty: 'hard',
+    question: 'Endogenous growth theory (Romer, 1990) challenges the Solow model\'s prediction by arguing that:',
+    options: [
+      'Capital does not face diminishing returns at the macroeconomic level — knowledge spillovers mean that as one firm innovates, others benefit, so the social return to capital investment does not diminish',
+      'Government spending is the primary driver of long-run growth through the fiscal multiplier acting on capital accumulation',
+      'Population growth is the main engine of technological progress, since larger markets enable greater specialisation',
+      'Convergence between rich and poor countries is inevitable because poor countries have lower capital-labour ratios and therefore higher returns to investment',
+      'International trade automatically generates the technological spillovers needed for sustained growth, so open economies always grow faster',
+    ],
+    correct: 0,
+    explanation: 'Endogenous growth theory (AK models, Romer): Solow treats technology as exogenous — a "manna from heaven". Romer endogenises innovation: firms invest in R&D, generating new knowledge. Crucially, knowledge is non-rival (one firm\'s use doesn\'t reduce another\'s) and generates spillovers. This prevents diminishing returns at the aggregate level — the "AK model" where output is proportional to capital without diminishing returns. Policy implication (unlike Solow): government policies affecting R&D incentives, education, and openness can permanently raise the growth RATE (not just the level). This justifies R&D subsidies, IP protection, and education investment as growth policies.',
+  },
+
+  {
+    id: 'gd-h-18', topic: 'economic-growth', topicLabel: 'Economic Growth', difficulty: 'hard',
+    question: 'Sustainable economic growth differs from conventional GDP growth because it requires:',
+    options: [
+      'Growth rates that are maintained consistently for at least 25 years without a recession',
+      'Growth that meets present needs without compromising the ability of future generations to meet their own needs — accounting for environmental limits, resource depletion, and social equity (Brundtland Commission definition)',
+      'GDP growth equal to population growth, ensuring no increase in consumption per person',
+      'Economic growth that is distributed equally across all income deciles, so no household is left behind during expansion',
+      'Growth financed entirely by domestic savings without recourse to foreign borrowing',
+    ],
+    correct: 1,
+    explanation: 'Sustainable development (Brundtland 1987): conventional GDP growth ignores natural capital depletion (oil, forests, biodiversity), carbon emissions, and intergenerational equity. A country that cuts down all its forests records positive GDP but destroys future productive capacity. True wealth accounting (World Bank Genuine Savings) subtracts natural capital depletion. Policy implications: carbon taxes (internalise externalities), renewable energy investment, green national accounts, international agreements (Paris COP targets). The tension between growth and sustainability is a core AQA synoptic theme — GDP growth and environmental protection may conflict without deliberate policy.',
+  },
+
+  {
+    id: 'gd-h-19', topic: 'economic-growth', topicLabel: 'Economic Growth', difficulty: 'hard',
+    type: 'multi',
+    question: 'Which TWO are valid economic arguments that higher economic growth can WORSEN inequality? Select ALL correct answers.',
+    options: [
+      'Growth driven by capital-intensive technology (automation) raises returns to capital owners and suppresses demand for unskilled labour — increasing the capital share of income at the expense of lower-skilled workers',
+      'All economic growth raises wages in proportion to productivity gains — this is a fundamental prediction of marginal productivity theory',
+      'Growth concentrated in already-prosperous regions (agglomeration) widens regional disparities — London grows faster than ex-industrial regions, increasing geographical inequality',
+      'Higher GDP mechanically reduces the Gini coefficient because tax revenues rise, funding automatic benefit increases',
+      'Growth always benefits all groups equally in the long run through the Kuznets curve — inequality peaks then falls with development',
+    ],
+    correct: [0, 2],
+    explanation: 'Growth and inequality: (A) Skill-biased technological change (SBTC) — automation and digitalisation complement high-skilled workers and substitute for routine, middle-skill jobs (Autor\'s "hollowing out"). Returns to capital rise as firms invest in technology. This explains rising inequality in UK/US since the 1980s alongside growth. (C) Agglomeration and regional divergence: London\'s productivity premium (40% above UK average) grows with its clustering advantages. Growth concentrated there widens the north-south divide without active regional policy. Kuznets (E) is an empirical hypothesis that has not held in developed nations post-1980.',
+  },
+
+  // ─── MACROECONOMIC OBJECTIVES ────────────────────────────────
+
+  {
+    id: 'syn-h-18', topic: 'macroeconomic-objectives', topicLabel: 'Macroeconomic Objectives', difficulty: 'hard',
+    question: 'The conflict between low inflation and low unemployment is best explained by:',
+    options: [
+      'Governments that pursue full employment inevitably cut taxes too much, causing fiscal deficits that fuel inflation',
+      'When unemployment falls below the NAIRU, excess demand in labour markets pushes up wages faster than productivity growth — firms pass on higher labour costs as price rises, generating cost-push inflation',
+      'Low unemployment means more people are spending, causing demand-pull inflation only in the short run — in the long run both targets are achievable simultaneously',
+      'The Bank of England deliberately keeps some workers unemployed as a direct policy instrument to control the price level',
+      'Lower unemployment always causes currency depreciation, which raises import prices and causes imported cost-push inflation',
+    ],
+    correct: 1,
+    explanation: 'The inflation-unemployment conflict: below NAIRU unemployment, labour markets are tight. Workers have bargaining power to demand wage rises exceeding productivity growth. Firms face higher unit labour costs and raise prices → inflation accelerates. This is the short-run Phillips curve trade-off. The NAIRU is the unemployment rate at which inflationary and deflationary pressures are balanced. Policymakers face a genuine trade-off: expansionary policy reduces unemployment but risks overheating. 2022-23 UK example: tight labour market (record low unemployment) combined with energy shocks → 11% inflation, forcing the MPC to raise rates despite slowing growth.',
+  },
+
+  {
+    id: 'syn-h-19', topic: 'macroeconomic-objectives', topicLabel: 'Macroeconomic Objectives', difficulty: 'hard',
+    type: 'multi',
+    question: 'Which TWO represent genuine conflicts between macroeconomic policy objectives that policymakers face? Select ALL correct answers.',
+    options: [
+      'Stimulating economic growth via expansionary fiscal policy may worsen the current account deficit if rising domestic incomes increase import spending faster than exports grow',
+      'Reducing inflation and reducing unemployment are always complementary objectives — achieving one automatically achieves the other in the long run',
+      'Pursuing a current account surplus by suppressing domestic demand (to reduce imports) conflicts with the objective of full employment, as weaker demand reduces output and jobs',
+      'Reducing national debt always requires cutting government spending, which simultaneously improves economic growth through supply-side effects',
+      'Income tax cuts to improve work incentives always worsen the fiscal deficit, creating an irresolvable conflict between supply-side and fiscal objectives',
+    ],
+    correct: [0, 2],
+    explanation: 'Genuine macroeconomic conflicts: (A) Growth-current account conflict: higher growth raises incomes → consumers spend more on imports (high UK MPI). China and Germany resolve this through export-led growth, but demand-led growth economies (like the UK) tend to worsen their current account during expansions. (C) Balance of payments-employment conflict: reducing a current account deficit requires cutting domestic demand (reduce imports) or devaluing (raise export competitiveness). Demand reduction worsens unemployment. The UK\'s persistent current account deficit (~3-4% GDP) reflects this tension — correcting it without damaging employment is difficult.',
+  },
+
+  {
+    id: 'syn-h-20', topic: 'macroeconomic-objectives', topicLabel: 'Macroeconomic Objectives', difficulty: 'hard',
+    question: 'The "impossible trinity" (Mundell-Fleming trilemma) states that a government cannot simultaneously achieve:',
+    options: [
+      'Low inflation, full employment, and a balanced budget — at least one objective must be sacrificed',
+      'A fixed exchange rate, free capital mobility, and an independent monetary policy — achieving any two requires sacrificing the third',
+      'Economic growth, environmental sustainability, and income equality — the three objectives are fundamentally incompatible',
+      'Current account balance, fiscal balance, and full employment — the three balances are arithmetically linked so all three cannot be zero simultaneously',
+      'Price stability, financial stability, and economic growth — central banks must always prioritise one over the others',
+    ],
+    correct: 1,
+    explanation: 'The Mundell-Fleming trilemma: (1) Fixed exchange rate + free capital mobility → monetary policy must be devoted to defending the peg (set rates to match the anchor country) — no independence. (2) Fixed exchange rate + independent monetary policy → capital controls needed to prevent the peg being broken by capital flows. (3) Free capital flows + independent monetary policy → exchange rate must float (capital flows determine it). The UK learned this on Black Wednesday (1992): tried to maintain ERM peg (fixed rate) + free capital movement → had to defend with high interest rates → speculative attack succeeded → UK forced to float. Thenceforth: floating rate + free capital + independent BoE policy.',
+  },
 ]
 
 export const allDifficulties = ['easy', 'medium', 'hard']
