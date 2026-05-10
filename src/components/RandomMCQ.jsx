@@ -98,7 +98,22 @@ export default function RandomMCQ() {
   }
 
   // ── Practice tab logic ─────────────────────────────────────
-  const topicOptions = useMemo(() => allTopics.map(t => ({ id: t.id, label: t.title, icon: t.icon })), [])
+  const topicOptions = useMemo(() => {
+    // Build topic list from the question bank itself so any topic with questions appears
+    const seen = new Map()
+    questionBank.forEach(q => {
+      if (!seen.has(q.topic)) seen.set(q.topic, q.topicLabel)
+    })
+    // Preserve ordering from allTopics where possible, then append extras
+    const ordered = allTopics
+      .filter(t => seen.has(t.id))
+      .map(t => ({ id: t.id, label: t.title, icon: t.icon }))
+    const orderedIds = new Set(ordered.map(t => t.id))
+    seen.forEach((label, id) => {
+      if (!orderedIds.has(id)) ordered.push({ id, label, icon: '📚' })
+    })
+    return ordered
+  }, [])
   const filteredCount = useMemo(() => {
     let qs = questionBank
     if (filterDifficulty !== 'all') qs = qs.filter(q => q.difficulty === filterDifficulty)
